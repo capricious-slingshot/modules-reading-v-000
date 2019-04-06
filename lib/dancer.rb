@@ -5,7 +5,7 @@ require_relative './fance_dance.rb'
 class Dancer
   extend MetaDancing
   include Dance
-  
+
   attr_reader :name
 
   def initialize(name)
